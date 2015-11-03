@@ -4,10 +4,10 @@ class LanguageSelector extends React.Component {
 
   render() {
     return(
-      <div>YO --
-      <ul>
-        { this.props.langList.map((lang) => <li>{ lang }</li>) }
-      </ul>
+      <div>Select a language
+        <ul>
+          { this.props.langList.map((lang) => <li>{ lang }</li>) }
+        </ul>
       </div>
     );
   }
